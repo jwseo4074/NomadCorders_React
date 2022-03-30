@@ -1,0 +1,64 @@
+/* section3 */
+.section3 {
+	width: 1800px;
+	height: 990px;
+	background: no-repeat center/100% url("../img/background_3.jpeg");
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+}
+.section3 h1 {
+	margin-left: 150px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	font-size: 80px;
+	color: blanchedalmond;
+}
+
+.section3_box {
+	width: 1790px;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.section3_project {
+	width: 1500px;
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.box {
+	display: flex;
+	flex-direction: column;
+}
+.project {
+	width: 500px;
+	height: 200px;
+	margin: 50px;
+	border-top: gray 2px solid;
+}
+.project a {
+	display: inline-block;
+	color: gray;
+	font: bolder;
+	font-size: 30px;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 20px;
+}
+.number{
+	color: white;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.explain {
+	font-size: 30px;
+	color: rgb(175, 175, 175);
+	font-weight: lighter;
+	margin-top: 20px;
+}
