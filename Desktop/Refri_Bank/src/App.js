@@ -34,6 +34,7 @@ const App = () => {
                 location={location}
                 page={page}
                 setpage={setpage}
+                information={information}
                 setinformation={setinformation}
                 this_header_set_inputs={this_header_set_inputs}
                 setthis_header_set_inputs={setthis_header_set_inputs}
@@ -62,11 +63,6 @@ const App = () => {
                 <Myigd history={history} information={information} />
               </Route>
               <Route restricted exact path="/like" exact component={Likeit}>
-                
-              {/* 위와 같은 문제점을 해결하기 위해선 exact path 를 사용하여 정확히 일치하는, 
-              즉 부분적으로 일치하는 것이 아니라 정확하게 일치하는 URL의 컴포넌트를 
-              렌더링시키는 방법을 사용할 수 있다. */}
-
                 <Likeit history={history} information={information} />
               </Route>
               <Route exact path="/my_write" exact component={Mywrite}>

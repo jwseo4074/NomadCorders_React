@@ -6,7 +6,7 @@ import show_logo from '../img/main_body_img/logo_img_good.png';
 import show_rgfimg from '../img/main_body_img/rfgimg2.png';
 import login_btn from '../img/main_body_img/login_btn.jpeg';
 import logout_btn from '../img/main_body_img/logout_btn.jpeg';
-// import Hamburger from '../components/mypage/hamburger';
+import Hamburger from '../components/mypage/hamburger';
 // 이미지 파일
 
 import Axios from 'axios';
